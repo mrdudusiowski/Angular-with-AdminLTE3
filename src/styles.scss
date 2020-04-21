@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(assets/plugins/jqvmap/jqvmap.min.css);
+@import url(assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css);
+@import url(assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css);
+@import url(assets/plugins/fontawesome-free/css/all.min.css);
+@import url(assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css);
+@import url(assets/plugins/daterangepicker/daterangepicker.css);
+@import url(assets/plugins/summernote/summernote-bs4.css);
+@import url(assets/dist/css/adminlte.min.css);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+
+/* Login page */
+.login-page{
+  display: block !important;
+}
+
+.login-page-block{
+  height: 100vh;
+  float: left;
+}
+
+#login-right-panel{
+  background-image: url("src/assets/img/login-page-image.jpg");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login-logo{
+  padding-bottom: 25px
+}
+
+#login-copyrights{
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  #login-right-panel{
+    display: none !important;
+  }
+}
+
+/* For all use */
+
+.main-page{
+  width: 100%;
+  height: 100vh;
+}
+
+.vertical-center {
+  height:100%;
+  width:100%;
+  font: 0/0 a;
+}
+
+.vertical-center:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.vertical-center > .container {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;        /* <-- reset the font property */
+}
