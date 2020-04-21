@@ -1,6 +1,8 @@
-# CPMAAngular
+# AdminLTE3 with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+This project is starter pack to use AdminLTE3 with Angular. I need this for project. I didn't found this version examples so now you can use this. Give me star or just fork this project!
+
+
 
 ## Development server
 
